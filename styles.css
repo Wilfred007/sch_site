@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.section{
+    width: 100%;
+}
+
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+
+
+}
+
+.container .content h3{
+    line-height: 40px;
+    font-weight: 12px;
+}
+
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container .title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(84, 86, 201);
+}
+
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #3f4855;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.image-section{
+    align-items: center;
+    padding-top: 60px;
+}
+
+.content .button{
+    margin-top: 50px;
+    align-content: center;
+}
+
+.content .button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: rgb(70, 70, 139);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+
+.content .button a:hover{
+    color: #fff;
+    background-color: rgb(158, 158, 209);
+    transition: 1s ease;
+}
+
+.socials{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+@media screen and (max-width: 760px) {
+    .section .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
